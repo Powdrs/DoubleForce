@@ -1,6 +1,5 @@
 # (©)Codexbotz
-# Recode by @mrismanaziz
-# t.me/SharingUserbot & t.me/Lunatic0de
+# Recode by @Powdrs
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
@@ -63,7 +62,7 @@ async def batch(client: Client, message: Message):
         ]
     )
     await second_message.reply_text(
-        f"<b>Link Sharing File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>Link Nonton Sebagai Berikut:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
@@ -102,7 +101,7 @@ async def link_generator(client: Client, message: Message):
         ]
     )
     await channel_message.reply_text(
-        f"<b>Link Sharing File Berhasil Di Buat:</b>\n\n{link}",
+        f"<b>Link Nonton Sebagai Berikut:</b>\n\n{link}",
         quote=True,
         reply_markup=reply_markup,
     )
