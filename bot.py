@@ -1,6 +1,5 @@
 # (©)Codexbotz
-# Recode by @mrismanaziz
-# t.me/SharingUserbot & t.me/Lunatic0de
+# Recode by @Powdrs
 
 import pyromod.listen
 import sys
@@ -49,7 +48,7 @@ class Bot(Client):
                     f"Silakan periksa kembali var FORCE_SUB_CHANNEL dan Pastikan Bot anda Admin di Channel Tersebut dengan izin link invite Pengguna melalui link undangan, Chat ID F-Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/Painofwords untuk Bantuan"
                 )
                 sys.exit()
         if FORCE_SUB_GROUP:
@@ -65,7 +64,7 @@ class Bot(Client):
                     f"Silakan periksa kembali var FORCE_SUB_GROUP dan Pastikan Bot anda Admin di Group Tersebut dengan izin link invite Pengguna melalui link undangan, Chat ID F-Subs Group Saat Ini: {FORCE_SUB_GROUP}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Gabung Group https://t.me/Painofwords untuk Bantuan"
                 )
                 sys.exit()
         try:
@@ -79,13 +78,13 @@ class Bot(Client):
                 f"Pastikan Bot adalah Admin di Channel DataBase, dan Periksa kembali Nilai CHANNEL_ID, Nilai Saat Ini: {CHANNEL_ID}"
             )
             self.LOGGER(__name__).info(
-                "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                "Bot Berhenti. Gabung Group https://t.me/Painofwords untuk Bantuan"
             )
             sys.exit()
 
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot"
+            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/Painofwords"
         )
         self.username = usr_bot_me.username
 
